@@ -203,6 +203,15 @@ main {
 
 .about-us{
   font-size: 1.5rem;
+  padding: 2rem;
+}
+
+.about-us h2{
+  font-size: 3rem;
+}
+
+.about-us p{
+  margin-top: 2rem;
 }
 
 .products-container {
@@ -362,6 +371,7 @@ img {
 
 .newsletter-social{
   margin: 2rem;
+  justify-content: center;
 }
 footer p{
   font-size: 2rem;
@@ -422,7 +432,6 @@ form {
 }
 
 label, input {
-  display: block;
   margin-bottom: 10px;
 }
 
