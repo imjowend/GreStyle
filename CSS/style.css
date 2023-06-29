@@ -472,7 +472,6 @@ input[type="submit"]:hover {
 .input-field input:focus + label,
 .input-field input:not(:placeholder-shown) + label {
   transform: translateY(-14px);
-  font-size: 12px;
   color: #9e9e9e;
 }
 
@@ -483,4 +482,13 @@ input[type="submit"]:hover {
   font-size: 16px;
   color: #9e9e9e;
   transition: .3s;
+}
+
+.newsletter-form{
+    font-size: 1.5rem;
+    color: #000;
+}
+
+.newsletter-social h2{
+  font-size: 2rem;
 }
